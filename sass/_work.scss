@@ -1,0 +1,65 @@
+.margin-top-1{
+  margin-top: 1em;
+}
+.padd1{
+  padding: 1em;
+}
+.center{
+  display: table;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#todo{
+	width:60%;
+}
+
+.form-update{
+	display:block;
+	width: 100% !important;
+}
+
+.todo{
+	display: block;
+	background: #ddd;
+	padding: 8px 8px;
+	margin: 3px;
+	min-width: 122px !important;
+	//width: 260px;
+
+	.tododata{
+		font-size: 1.3em;
+	}
+
+	small{
+		font-size: .8em;
+	}
+}
+
+
+
+.animate{
+	-moz-transition: all  2s ;
+	transition: all 2s;
+}
+
+.centered {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:150px;
+    height:150px;
+    margin-top: -75px; /*set to a negative number 1/2 of your height*/
+    margin-left: -75px; /*set to a negative number 1/2 of your width*/
+}
+
+.close{
+	position: absolute;
+	top:0;
+	right:0;
+	padding: 5px;
+
+}
+
